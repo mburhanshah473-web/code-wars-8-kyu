@@ -1,0 +1,18 @@
+import random
+number=random.randint(1,30)
+attempts=3
+while attempts>0:
+    guess=int(input("Please guess the number between 1 and 30: "))
+    if guess>30 or guess<1:
+        print("You're supposed to guess between 1 and 30...!!!")
+    elif guess==number:
+        print("Well done you guessed it right...!!!")
+        break
+    else:
+        print("Youve guessed the wrong number...!!!")
+        attempts-=1
+        print(f"you have only {attempts} attempts left")
+if attempts==0:
+    print("Game over")            
+    
+   
