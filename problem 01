@@ -1,0 +1,9 @@
+emp_lis=[]
+num=int(input("How many items do you want to store in the list: "))
+for i in range(num):
+ inp=input("Please enter the list item: ")
+ emp_lis.append(inp)
+print(emp_lis.sort)
+result="***".join(emp_lis[0])
+print(result)
+ 
