@@ -10,9 +10,9 @@ while attempts>0:
         break
     else:
         print("Youve guessed the wrong number...!!!")
-        attempts-=1
+        attempts -= 1
         print(f"you have only {attempts} attempts left")
 if attempts==0:
-    print("Game over")            
+    print(f"Game over.....the number was {number} 😏")            
     
    
